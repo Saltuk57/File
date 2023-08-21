@@ -1,0 +1,8 @@
+import random
+semboller="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+sifre=""
+uzunluk=int(input("Merhaba! Lütfen istediğiniz şifrenin uzunluğunu girin"))
+
+for i in range(uzunluk):
+    sifre+=random.choice(semboller)
+print(sifre)
